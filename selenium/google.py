@@ -20,9 +20,9 @@ driver = webdriver.Chrome(options=options)
 driver.get("https://www.google.co.kr/imghp?hl=en&authuser=0&ogbl")
 
 
-#search keyword
+#search keyword 
 elem = driver.find_element_by_name("q")
-elem.send_keys("kim yeon kyung")
+elem.send_keys("IU")
 elem.send_keys(Keys.RETURN)
 
 
